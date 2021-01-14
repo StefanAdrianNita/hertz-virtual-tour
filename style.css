@@ -25,7 +25,7 @@ html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-color: #000;
-  color: #fff;
+  color: black;
 }
 
 a, a:hover, a:active, a:visited {
@@ -103,8 +103,8 @@ body.multiple-scenes.mobile #titleBar {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgb(98, 183, 143);
+  background-color: rgba(198, 183, 143,0.8);
 }
 
 .mobile #fullscreenToggle {
@@ -153,8 +153,8 @@ body.fullscreen-enabled #fullscreenToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgb(98, 183, 143);
+  background-color: rgba(98, 183, 143,0.8);
 }
 
 .mobile #autorotateToggle {
@@ -207,8 +207,8 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   width: 40px;
   height: 40px;
   padding: 5px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
+  background-color: rgb(98, 183, 143);
+  background-color: rgba(98, 183, 143,0.8);
 }
 
 .mobile #sceneListToggle {
