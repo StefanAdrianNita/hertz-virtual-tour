@@ -95,6 +95,8 @@
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
     });
 
+    const purposeLink=['/','/','/','/','/','/','/','/','/','/','/','/','/','https://youtu.be/x1-pRGldWbM'];
+
     // Create info hotspots.
     data.infoHotspots.forEach(function(hotspot) {
       var element = createInfoHotspotElement(hotspot);
