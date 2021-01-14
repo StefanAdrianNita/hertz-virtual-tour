@@ -1,7 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-cancello-di-ingresso",
+      "id": "1-cancello-di-ingresso",
       "name": "Cancello di Ingresso",
       "levels": [
         {
@@ -44,7 +44,7 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-piazzale",
+      "id": "0-piazzale",
       "name": "Piazzale",
       "levels": [
         {
