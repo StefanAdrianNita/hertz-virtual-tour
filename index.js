@@ -133,7 +133,7 @@ var hotspotHtml = {
 // Switch sources when clicked.
 function switchHotspot(id) {
   var wrapper = document.getElementById('iframespot');
-  wrapper.innerHTML = hotspotHtml[id];
+  wrapper.innerHTML = purposeLink[id];
 }
 
       switchHotspot('youtube');
