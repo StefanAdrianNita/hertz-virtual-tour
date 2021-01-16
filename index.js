@@ -101,18 +101,18 @@ count++;
 // HTML sources.
 var hotspotHtml=Array(4);
  hotspotHtml[0]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/rhie8CaHU3E;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[1]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/rhie8CaHU3E;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
 };
       
 hotspotHtml[2]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/rhie8CaHU3E;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
 };
 
 hotspotHtml[3]={
-  youtube: '<iframe width="1280" height="480" src="https://youtu.be/rhie8CaHU3E;" frameborder="0" allowfullscreen></iframe>'
+  youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
 };
 
 
