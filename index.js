@@ -118,7 +118,7 @@ hotspotHtml[3]={
 
 // Switch sources when clicked.
 function switchHotspot(id) {
-  for(var i=0;i<3;i++)
+  for(var i=0;i<4;i++)
       {
   var wrapper = document.getElementById('iframespot'+i);
   wrapper.innerHTML = hotspotHtml[i][id];
