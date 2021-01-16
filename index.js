@@ -101,7 +101,7 @@ count++;
 // HTML sources.
 var hotspotHtml=Array(4);
  hotspotHtml[0]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/watch?v=cNJU2TvLkY0;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://youtu.be/WoOAtcwexfQ;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[1]={
     youtube: '<iframe width="1280" height="480" src="https://youtu.be/rhie8CaHU3E;" frameborder="0" allowfullscreen></iframe>'
@@ -118,7 +118,7 @@ hotspotHtml[3]={
 
 // Switch sources when clicked.
 function switchHotspot(id) {
-  for(var i=0;i<4;i++)
+  for(var i=0;i<hotspotHtml.length;i++)
       {
   var wrapper = document.getElementById('iframespot'+i);
   wrapper.innerHTML = hotspotHtml[i][id];
