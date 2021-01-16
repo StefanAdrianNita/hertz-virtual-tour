@@ -99,22 +99,116 @@ container.createHotspot(document.getElementById('iframespot'+count), { yaw: 3.5,
 container.createHotspot(document.getElementById('iframeselect'+count), { yaw: -0.35, pitch: -0.239 });
 count++;
 // HTML sources.
-var hotspotHtml=Array(4);
+var hotspotHtml=Array(31);
  hotspotHtml[0]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/1DziJxUnSQA?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[1]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/nZ6FctOHgHg?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+          
+hotspotHtml[2]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
       
-hotspotHtml[2]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
-};
-
 hotspotHtml[3]={
-  youtube: '<iframe width="1280" height="480" src="https://youtu.be/XzZoBmaeJ3o;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 
+hotspotHtml[4]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[5]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[6]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[7]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[8]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[9]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[10]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[11]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[12]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[13]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[14]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[15]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[16]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[17]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[18]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[19]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[20]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[21]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[22]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[23]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[24]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[25]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[26]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[27]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[28]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[29]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+
+hotspotHtml[30]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+
+      
+// Switch sources when clicked.
+function switchHotspot(id) {
+  for(var i=0;i<31;i++)
+      {
+  var wrapper = document.getElementById('iframespot'+i);
+  wrapper.innerHTML = hotspotHtml[i][id];
+      }
+      }
+
+switchHotspot('youtube');
 
 // Switch sources when clicked.
 function switchHotspot(id) {
