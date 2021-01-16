@@ -99,7 +99,7 @@ container.createHotspot(document.getElementById('iframespot'+count), { yaw: 3.5,
 container.createHotspot(document.getElementById('iframeselect'+count), { yaw: -0.35, pitch: -0.239 });
 count++;
 // HTML sources.
-var hotspotHtml=Array(31);
+var hotspotHtml=Array(4);
  hotspotHtml[0]={
     youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/watch?v=cNJU2TvLkY0;" frameborder="0" allowfullscreen></iframe>'
 };
