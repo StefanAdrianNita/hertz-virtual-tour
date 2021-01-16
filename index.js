@@ -88,6 +88,52 @@
       pinFirstLevel: true
     });
 
+          // Get the hotspot container for scene.
+var container = scene.hotspotContainer();
+
+// Create hotspot with different sources.
+      
+container.createHotspot(document.getElementById('iframespot'+count), { yaw: 3.5, pitch: -0.102 },
+  { perspective: { radius: 1640, extraTransforms: "rotateX(5deg)" }});
+      
+container.createHotspot(document.getElementById('iframeselect'+count), { yaw: -0.35, pitch: -0.239 });
+count++;
+// HTML sources.
+var hotspotHtml=Array(31);
+ hotspotHtml[0]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/1DziJxUnSQA?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+hotspotHtml[1]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/nZ6FctOHgHg?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+      
+hotspotHtml[2]={
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/wcgZycSN2T4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+};
+      
+// Switch sources when clicked.
+function switchHotspot(id) {
+  for(var i=0;i<3;i++)
+      {
+  var wrapper = document.getElementById('iframespot'+i);
+  wrapper.innerHTML = hotspotHtml[i][id];
+      }
+      }
+
+switchHotspot('youtube');
+      
+var switchElements = document.querySelectorAll('[data-source]');
+for (var i = 0; i < switchElements.length; i++) {
+  var element = switchElements[i];
+  addClickEvent(element);
+}
+
+function addClickEvent(element) {
+  element.addEventListener('click', function() {
+    switchHotspot(element.getAttribute('data-source'));
+  });
+} 
+
     // Create link hotspots.
     data.linkHotspots.forEach(function(hotspot) {
       var element = createLinkHotspotElement(hotspot);
