@@ -1189,7 +1189,7 @@ var APP_DATA = {
       ],
       "infoHotspots": [
         {
-          "yaw": -7.0660194184151788,
+          "yaw": 2.0660194184151788,
           "pitch": 0.03732950776865884,
           "title": "Attività Extra-Scolastiche",
           "text": "Organizziamo  campi scuola culturali e sportivi  "
