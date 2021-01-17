@@ -1187,7 +1187,15 @@ var APP_DATA = {
           "target": "27-piano-piloty-campetti"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -1.0660194184151788,
+          "pitch": 0.03732950776865884,
+          "title": "Tennis da Tavolo",
+          "text": "Area dove è possibile praticare il tennis da tavolo."
+        }
+
+      ]
     },
     {
       "id": "27-piano-piloty-campetti",
