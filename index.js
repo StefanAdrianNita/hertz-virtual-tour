@@ -73,7 +73,7 @@ var offsets=[3.5,
              5.8,//corridoio lab multimediale
              3.5,//lab info 3
              3.5,//lab chimica
-             3.8,//lab fisica
+             3.5,//lab fisica
              2.0,//lab info musicale
              3.5,//lab net
              2.03,//lab pcto
