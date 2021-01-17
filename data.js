@@ -184,13 +184,13 @@ var APP_DATA = {
           "yaw": -1.9945488940895046,
           "pitch": 0.0021784044320334317,
           "title": "Struttura del plesso",
-          "text": "Il nostro pesso si sviluppa su tre piani. Questo è il primo piano, dove si trovano gli uffici, la sala professori, le aule dei Bienni e alcuni laboratori.&nbsp;&nbsp;"
+          "text": "Il nostro plesso si sviluppa su tre piani. Questo è il primo piano, dove si trovano gli uffici, la sala professori, le aule dei Bienni e alcuni laboratori.&nbsp;&nbsp;"
         },
         {
           "yaw": 1.8589355063745039,
           "pitch": 0.11066586191750183,
           "title": "Vicepresidenza",
-          "text": "Il Vicepreside e responsabile del plesso è il prof. Franco Martufi<div>Il Secondo Collaboratore è la prof.ssa Francesca Liburdi</div>"
+          "text": "I collaboratori della preside sono il prof. Franco Martufi<div>E la prof.ssa Francesca Liburdi</div>"
         },
         {
           "yaw": 0.8083450223232802,
