@@ -56,15 +56,70 @@
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 var count=0;
 
-var offsets=[3.5,6.0,5.1,3.5,3.5,3.55,3.5,3.5,3.5,3.5
-            ,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5
-            ,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5
-            ,3.5];
+var offsets=[3.5,
+             6.0,//corridoio primo piano
+             5.1,
+             3.5,//aula conferenze
+             3.5,
+             3.55,
+             3.9, //locurcio aula 2p
+             2.0,//biblioteca
+             4.8,//cancello ingresso
+             4.5, //corridoio elettronica
+             5.8, //corridoio chimica
+             5.8, //corridoi informatica
+             5.8, //corridoio aula conferenze
+             5.8,//corridoio lab info3
+             5.8,//corridoio lab multimediale
+             3.5,//lab info 3
+             3.5,//lab chimica
+             3.3,//lab fisica
+             2.0,//lab info musicale
+             3.5,//lab net
+             2.03,//lab pcto
+             3.5,//lab sistemi
+             3.5,//lab elettronica
+             1.5,//lab automazione
+             4.0,//lab automazione pc
+             3.5,//mutimediale
+             2.7,//palestra
+             3.0,//campetti
+             4.5,//piloty elettronica
+             3.5,//piloty ingresso
+             3.2//piazzale
+             ];
 
-var vertical=[-0.102,-0.102,-0.102,-0.09,-0.102,0.078,-0.102,-0.102,-0.102,-0.102
-             ,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102
-             ,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102
-             ,-0.102];
+var vertical=[-0.102,
+              -0.102,//corridoio primo piano
+              -0.102,
+              -0.09,//aula conferenze
+              -0.102,
+              0.078,
+              -0.062, //locurcio aua 2p
+              -0.102, //biblioteca
+              -0.075, //cancello ingresso
+              -0.102, //corridoio elettronica
+              -0.065,  //corridoio chimica
+              -0.102, //corridoi informatica
+              -0.072, //corridoio aula conferenze
+              -0.060,//corridoio lab info3
+              -0.060,//corridoio lab multimediale
+              -0.060,//lab info 3
+              -0.080,//lab chimica
+              -0.040,//ab fisica
+              -0.020,//lab info musicale
+              -0.050,//lab net
+               0.050,//lab pcto
+              -0.01,//lab sistemi
+              -0.102,//lab elettronica
+              -0.102,//lab automazione
+              -0.102,//lab automazione pc
+               0.0,//lab multimediale
+              -0.102,//palestra
+              -0.102,//campetti
+              -0.102,//piloty elettronica
+              -0.102,
+              -0.05];
 
 
   // Create scenes.
@@ -100,99 +155,99 @@ var hotspotHtml=Array(31);
  hotspotHtml[0]={
     youtube: '<iframe width="2360" height="960" src="https://www.youtube.com/embed/n0fgiOyr3w4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[1]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/pSGTeXYDUOI?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[1]={//corridoio primo piano
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/pSGTeXYDUOI?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
           
 hotspotHtml[2]={
     youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/q_2ueXdmVv4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
       
-hotspotHtml[3]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[3]={//aula conferenze
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 
 hotspotHtml[4]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[5]={
     youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/cmKY3ck1Zyg?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[6]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/nZ6FctOHgHg?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[7]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[7]={ //biblioteca
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/rhie8CaHU3E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[8]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[8]={//cancello ingresso
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/RjTfGIz9UQk?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[9]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[9]={//corridio elettronica
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/8VwS-EBRZVk?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[10]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[10]={ //corridoio chimica
+    youtube: '<iframe width="800" height="960" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[11]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[11]={//corridoi informatica
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[12]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[12]={ //corridoio aula conferenze
+    youtube: '<iframe width="800" height="960" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[13]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[13]={//corridoio lab info3
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[14]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[14]={//corridoio lab multimediale
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/K8zt9wfCc8c?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[15]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[15]={//lab info 3
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/x1-pRGldWbM?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[16]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[16]={//lab chimica
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/WoOAtcwexfQ?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[17]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[17]={//lab fisica
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[18]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[18]={//lab info musicale
+    youtube: '<iframe width="2360" height="960" src="https://www.youtube.com/embed/kneaG7jM-I8?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[19]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[19]={//lab net
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/66Pb_myI-V8?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[20]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[20]={//lab pcto
+    youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[21]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[21]={//lab sistemi
+    youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/1DziJxUnSQA?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[22]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[22]={//lab elettronica
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[23]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[23]={//lab automazione
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/y5K3qDl4Oe0?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[24]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[24]={//lab automazione pc
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/Op_BYYbo5bE?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[25]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[25]={//lab multimediale
+    youtube: '<iframe width="1280" height="640" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[26]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[26]={//palestra
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/wcgZycSN2T4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[27]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[27]={//campetti
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
-hotspotHtml[28]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+hotspotHtml[28]={//piloty elettronica
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/C_KYmjUF8no?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[29]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 
 hotspotHtml[30]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/WiSyGodJ3OM?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 
       
