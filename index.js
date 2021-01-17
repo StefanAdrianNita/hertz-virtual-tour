@@ -1,21 +1,6 @@
-/*
- * Copyright 2016 Google Inc. All rights reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
 'use strict';
 
-(function() {
   var Marzipano = window.Marzipano;
   var bowser = window.bowser;
   var screenfull = window.screenfull;
@@ -69,7 +54,19 @@
 
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
-  var count=0;
+var count=0;
+
+var offsets=[3.5,6.0,5.1,3.5,3.5,3.55,3.5,3.5,3.5,3.5
+            ,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5
+            ,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5,3.5
+            ,3.5];
+
+var vertical=[-0.102,-0.102,-0.102,-0.09,-0.102,0.078,-0.102,-0.102,-0.102,-0.102
+             ,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102
+             ,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102,-0.102
+             ,-0.102];
+
+
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
     var urlPrefix = "tiles";
@@ -88,12 +85,12 @@
       pinFirstLevel: true
     });
 
-          // Get the hotspot container for scene.
+        // Get the hotspot container for scene.
 var container = scene.hotspotContainer();
 
-// Create hotspot with different sources.
+// Create hotspot with different sources.//pitch: -0.102
       
-container.createHotspot(document.getElementById('iframespot'+count), { yaw: 3.5, pitch: -0.102 },
+container.createHotspot(document.getElementById('iframespot'+count), { yaw: offsets[count], pitch: vertical[count] },
   { perspective: { radius: 1640, extraTransforms: "rotateX(5deg)" }});
       
 container.createHotspot(document.getElementById('iframeselect'+count), { yaw: -0.35, pitch: -0.239 });
@@ -101,25 +98,25 @@ count++;
 // HTML sources.
 var hotspotHtml=Array(31);
  hotspotHtml[0]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/1DziJxUnSQA?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="2360" height="960" src="https://www.youtube.com/embed/n0fgiOyr3w4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[1]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/nZ6FctOHgHg?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/pSGTeXYDUOI?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
           
 hotspotHtml[2]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/pSGTeXYDUOI;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/q_2ueXdmVv4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
       
 hotspotHtml[3]={
-    youtube: '<iframe width="1280" height="480" src="https://youtu.be/q_2ueXdmVv4;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 
 hotspotHtml[4]={
     youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[5]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/cmKY3ck1Zyg?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[6]={
     youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/XzZoBmaeJ3o?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
@@ -209,17 +206,6 @@ function switchHotspot(id) {
       }
 
 switchHotspot('youtube');
-
-// Switch sources when clicked.
-function switchHotspot(id) {
-  for(var i=0;i<hotspotHtml.length;i++)
-      {
-  var wrapper = document.getElementById('iframespot'+i);
-  wrapper.innerHTML = hotspotHtml[i][id];
-      }
-      }
-
-switchHotspot('youtube');
       
 var switchElements = document.querySelectorAll('[data-source]');
 for (var i = 0; i < switchElements.length; i++) {
@@ -232,7 +218,8 @@ function addClickEvent(element) {
     switchHotspot(element.getAttribute('data-source'));
   });
 } 
-
+      
+      
     // Create link hotspots.
     data.linkHotspots.forEach(function(hotspot) {
       var element = createLinkHotspotElement(hotspot);
@@ -534,4 +521,4 @@ function addClickEvent(element) {
   // Display the initial scene.
   switchScene(scenes[0]);
 
-})();
+

@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-atrio",
-      "name": "Atrio",
+      "id": "0-atrio-centrale",
+      "name": "Atrio centrale",
       "levels": [
         {
           "tileSize": 256,
@@ -20,48 +20,54 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -1.9650705346339343,
-        "pitch": 0.09869447937023068,
-        "fov": 1.3497101748081497
+        "yaw": -2.7649638122217617,
+        "pitch": 0.11618143486332855,
+        "fov": 1.3108730938557924
       },
       "linkHotspots": [
         {
-          "yaw": 1.2311704887422241,
-          "pitch": 0.2531968124060917,
-          "rotation": 0,
-          "target": "2-atrio-corridoio"
-        },
-        {
-          "yaw": 2.5487859737390384,
-          "pitch": 0.251279975489453,
-          "rotation": 0.7853981633974483,
-          "target": "3-atrio-vicepresidenza"
-        },
-        {
-          "yaw": -0.6672819571525075,
-          "pitch": 0.21062597279174788,
+          "yaw": 2.7634406502732247,
+          "pitch": 0.210328199879795,
           "rotation": 5.497787143782138,
-          "target": "1-biblioteca"
+          "target": "2-vicepresidenza"
         },
         {
-          "yaw": -0.07954103768512155,
-          "pitch": 0.18928829220054055,
-          "rotation": 0.7853981633974483,
-          "target": "29-atrio-esterno"
+          "yaw": -0.615606848099052,
+          "pitch": 0.2705674089801633,
+          "rotation": 0,
+          "target": "7-biblioteca"
+        },
+        {
+          "yaw": -0.08370054740347754,
+          "pitch": 0.1791346440754893,
+          "rotation": 7.0685834705770345,
+          "target": "4-scale-esterne"
+        },
+        {
+          "yaw": 1.331879836589529,
+          "pitch": 0.207697146945236,
+          "rotation": 5.497787143782138,
+          "target": "1-corridoio-primo-piano"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.0919369039044753,
-          "pitch": 0.12302483408664422,
-          "title": "Segreteria",
-          "text": "Bancone della segreteria <br>"
+          "yaw": -1.924325894791135,
+          "pitch": 0.025564968054943904,
+          "title": "Atrio principale",
+          "text": "Il nostro plesso si trova in Via Walter Procaccini 70. Per contattarci il numero di telefono è 06.121122805<br>"
+        },
+        {
+          "yaw": -1.217703083635186,
+          "pitch": 0.04649558048201463,
+          "title": "Indirizzi",
+          "text": "Nel plesso Hertz sono attivi gli indirizzi di Elettronica ed Elettrotecnica, Informatica, Informatica Progetto Musicale e Liceo delle Scienze Applicate"
         }
       ]
     },
     {
-      "id": "1-biblioteca",
-      "name": "Biblioteca",
+      "id": "1-corridoio-primo-piano",
+      "name": "Corridoio primo piano",
       "levels": [
         {
           "tileSize": 256,
@@ -79,398 +85,123 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.6619064273873656,
-        "pitch": 0.0075575921172728044,
-        "fov": 1.3497101748081497
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.3108730938557924
       },
       "linkHotspots": [
         {
-          "yaw": 2.752347798827836,
-          "pitch": 0.13550899062885158,
+          "yaw": 0.34015211333101547,
+          "pitch": 0.3094949874593933,
+          "rotation": 0,
+          "target": "14-corridoio-lab-multimediale"
+        },
+        {
+          "yaw": -1.4510377796777334,
+          "pitch": 0.4048464209731666,
+          "rotation": 5.497787143782138,
+          "target": "0-atrio-centrale"
+        },
+        {
+          "yaw": -2.760114825686216,
+          "pitch": 0.26205127680798057,
+          "rotation": 0,
+          "target": "2-vicepresidenza"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "2-vicepresidenza",
+      "name": "Vicepresidenza",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.22440082303909037,
+        "pitch": 0.03262126612501248,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.40249571093661096,
+          "pitch": 0.14446415008514535,
+          "rotation": 0,
+          "target": "1-corridoio-primo-piano"
+        },
+        {
+          "yaw": -0.3791346077245077,
+          "pitch": 0.24587880841535537,
+          "rotation": 5.497787143782138,
+          "target": "0-atrio-centrale"
+        },
+        {
+          "yaw": -2.606593542063802,
+          "pitch": 0.07874645336861263,
+          "rotation": 2.356194490192345,
+          "target": "26-palestra"
+        },
+        {
+          "yaw": -2.426147236134568,
+          "pitch": -0.12103779266545267,
           "rotation": 0.7853981633974483,
-          "target": "0-atrio"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-atrio-corridoio",
-      "name": "Atrio Corridoio",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "target": "11-corridoio-laboratori-informatica"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 0.38144366888306,
-        "pitch": 0.137007845765595,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.7314951875843825,
-          "pitch": 0.2533129462620636,
+          "yaw": -2.7749667670669815,
+          "pitch": 0.055896255493053104,
           "rotation": 0,
-          "target": "0-atrio"
+          "target": "27-piano-piloty-campetti"
         },
         {
-          "yaw": 0.35815768076999177,
-          "pitch": 0.2253463352148799,
-          "rotation": 0,
-          "target": "4-corridoio-multimediale"
-        },
-        {
-          "yaw": -2.777486191187265,
-          "pitch": 0.18528440781094524,
-          "rotation": 0,
-          "target": "3-atrio-vicepresidenza"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-atrio-vicepresidenza",
-      "name": "Atrio Vicepresidenza",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 2.7906994918631396,
-        "pitch": 0.09581897564315511,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.411248667537345,
-          "pitch": 0.18265627643625848,
-          "rotation": 0,
-          "target": "2-atrio-corridoio"
-        },
-        {
-          "yaw": -0.6747440242264311,
-          "pitch": 0.27715599718708006,
-          "rotation": 6.283185307179586,
-          "target": "0-atrio"
-        },
-        {
-          "yaw": -2.443782448318169,
-          "pitch": -0.2782656726351469,
-          "rotation": 6.283185307179586,
-          "target": "11-corridoio-secondo-piano-informatica"
-        },
-        {
-          "yaw": -2.603245340878571,
-          "pitch": 0.08792700553672539,
+          "yaw": -0.38359696012782507,
+          "pitch": 0.03481599539365554,
           "rotation": 1.5707963267948966,
-          "target": "30-palestra"
+          "target": "4-scale-esterne"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -2.2997382400331787,
-          "pitch": -0.27133473177740797,
-          "title": "Secondo Piano<br>",
-          "text": "Da qui si arriva al secondo piano<br>"
+          "yaw": 2.9832538581684886,
+          "pitch": 0.08745026252128518,
+          "title": "Segreteria Didattica",
+          "text": "Si può contattare la segreteria didattica all'indirizzo di posta didattica@iisenzoferrari.it"
         },
         {
-          "yaw": 1.908928817980164,
-          "pitch": 0.10577849341831147,
+          "yaw": -1.9945488940895046,
+          "pitch": 0.0021784044320334317,
+          "title": "Struttura del plesso",
+          "text": "Il nostro pesso si sviluppa su tre piani. Questo è il primo piano, dove si trovano gli uffici, la sala professori, le aule dei Bienni e alcuni laboratori.&nbsp;&nbsp;"
+        },
+        {
+          "yaw": 1.8589355063745039,
+          "pitch": 0.11066586191750183,
           "title": "Vicepresidenza",
-          "text": "Ufficio del Vicepreside<br>"
+          "text": "Il Vicepreside e responsabile del plesso è il prof. Franco Martufi<div>Il Secondo Collaboratore è la prof.ssa Francesca Liburdi</div>"
         },
         {
-          "yaw": 3.0757431230079693,
-          "pitch": 0.07118046318246485,
-          "title": "Didattica",
-          "text": "Ufficio della didattica<br>"
+          "yaw": 0.8083450223232802,
+          "pitch": 0.06855865385690585,
+          "title": "Dirigente",
+          "text": "La Dirigente dell'Istituto Ferrari, di cui questo plesso fa parte, è la prof.ssa Ida Crea"
         }
       ]
     },
     {
-      "id": "4-corridoio-multimediale",
-      "name": "Corridoio Multimediale",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.41292489722223635,
-        "pitch": 0.13445982096946807,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.823582366200954,
-          "pitch": 0.2191043309703833,
-          "rotation": 0,
-          "target": "2-atrio-corridoio"
-        },
-        {
-          "yaw": 0.3616581480454748,
-          "pitch": 0.15374717239027724,
-          "rotation": 0,
-          "target": "10-corridoio-informatica"
-        },
-        {
-          "yaw": -1.8342799320933256,
-          "pitch": 0.5197416009349443,
-          "rotation": 4.71238898038469,
-          "target": "6-corridoio-elettronica"
-        },
-        {
-          "yaw": -1.6225152899501243,
-          "pitch": 0.20180221060360815,
-          "rotation": 5.497787143782138,
-          "target": "7-corridoio-secondo-piano"
-        },
-        {
-          "yaw": -1.2636615842414827,
-          "pitch": 0.2319066994332104,
-          "rotation": 0,
-          "target": "5-aula-multimediale"
-        },
-        {
-          "yaw": 0.63198839251028,
-          "pitch": 0.15613388610137058,
-          "rotation": 0,
-          "target": "20-aula-biennio"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.786549269051509,
-          "pitch": 0.4230649281519554,
-          "title": "Laboratori di Elettronica<br>",
-          "text": "Scendendo le scale si arriva ai laboratori di elettronica situati al piano terra<br>"
-        },
-        {
-          "yaw": -1.6053034039465217,
-          "pitch": 0.09588089264661903,
-          "title": "Secondo Piano<br>",
-          "text": "Da qui si sale per il secondo piano<br>"
-        },
-        {
-          "yaw": -1.1477334051837875,
-          "pitch": 0.07614950687761635,
-          "title": "Aula Multimediale<br>",
-          "text": "Laboratorio di Inglese<br>"
-        },
-        {
-          "yaw": 0.7057950535801893,
-          "pitch": 0.04420624135126516,
-          "title": "Aula",
-          "text": "Un esempio di aula del biennio<br>"
-        }
-      ]
-    },
-    {
-      "id": "5-aula-multimediale",
-      "name": "Aula Multimediale",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 2.9199745421558205,
-        "pitch": 0.14291796068405382,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.6987612477269236,
-          "pitch": 0.1580074339206874,
-          "rotation": 0.7853981633974483,
-          "target": "4-corridoio-multimediale"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-corridoio-elettronica",
-      "name": "Corridoio Elettronica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.8882579792108274,
-        "pitch": 0.051790095510551026,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.842744797679817,
-          "pitch": 0.1264868940735937,
-          "rotation": 0.7853981633974483,
-          "target": "4-corridoio-multimediale"
-        },
-        {
-          "yaw": -2.835249303796699,
-          "pitch": 0.12947827180973803,
-          "rotation": 6.283185307179586,
-          "target": "21-laboratorio-elettronica-n2"
-        },
-        {
-          "yaw": -2.995783685047792,
-          "pitch": 0.3029011721659707,
-          "rotation": 4.71238898038469,
-          "target": "23-laboratorio-elettronica-n1"
-        },
-        {
-          "yaw": -2.524614246806058,
-          "pitch": 0.21817638788825633,
-          "rotation": 0.7853981633974483,
-          "target": "24-piazzale-elettronica"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.7014055563982708,
-          "pitch": 0.030883477883730137,
-          "title": "Laboratorio di Disegno<br>",
-          "text": "Laboratorio di disegno tecnico per il biennio<br>"
-        }
-      ]
-    },
-    {
-      "id": "7-corridoio-secondo-piano",
-      "name": "Corridoio Secondo Piano",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.6136352592593397,
-        "pitch": 0.14415294339784523,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.4947834530500792,
-          "pitch": 0.12611204745306814,
-          "rotation": 5.497787143782138,
-          "target": "8-aula-conferenze"
-        },
-        {
-          "yaw": -1.8672535580854763,
-          "pitch": 0.30671621705038987,
-          "rotation": 10.210176124166829,
-          "target": "4-corridoio-multimediale"
-        },
-        {
-          "yaw": 0.3445381662538196,
-          "pitch": 0.12828676685978024,
-          "rotation": 0,
-          "target": "13-corridoio-secondo-piano-chimica"
-        },
-        {
-          "yaw": 0.5803802602166321,
-          "pitch": 0.09135614895740929,
-          "rotation": 0.7853981633974483,
-          "target": "9-aula-triennio"
-        },
-        {
-          "yaw": -2.7807672237928607,
-          "pitch": 0.1684596385651531,
-          "rotation": 0,
-          "target": "11-corridoio-secondo-piano-informatica"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.456893447133499,
-          "pitch": 0.017292223090390024,
-          "title": "Aula Conferenze<br>",
-          "text": "Aula dove vengono tenute le conferenze extra-scolastiche<br>"
-        },
-        {
-          "yaw": -1.8425270057036478,
-          "pitch": 0.18897930526948592,
-          "title": "Primo piano<br>",
-          "text": "Da qui si scende per il primo piano<br>"
-        },
-        {
-          "yaw": 0.6888806073673877,
-          "pitch": -0.034672936297198476,
-          "title": "Aula",
-          "text": "Un esempio di aula del triennio<br>"
-        }
-      ]
-    },
-    {
-      "id": "8-aula-conferenze",
+      "id": "3-aula-conferenze",
       "name": "Aula Conferenze",
       "levels": [
         {
@@ -489,892 +220,23 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -2.780935452351848,
-        "pitch": 0.01691033170578571,
-        "fov": 1.3497101748081497
+        "yaw": -2.8245605180545663,
+        "pitch": 0.14088574196506087,
+        "fov": 1.3108730938557924
       },
       "linkHotspots": [
         {
-          "yaw": 2.6138202153748296,
-          "pitch": 0.11280589140491237,
-          "rotation": 7.0685834705770345,
-          "target": "7-corridoio-secondo-piano"
+          "yaw": 2.703396693149301,
+          "pitch": 0.0780034038864077,
+          "rotation": 10.995574287564278,
+          "target": "12-corridoio-aula_conferenze"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "9-aula-triennio",
-      "name": "Aula Triennio",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.7808858530395177,
-        "pitch": 0.016363405497450856,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.7879859532143616,
-          "pitch": 0.194331772638364,
-          "rotation": 4.71238898038469,
-          "target": "7-corridoio-secondo-piano"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-corridoio-informatica",
-      "name": "Corridoio Informatica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.5539562642679208,
-        "pitch": 0.171032078517122,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.8255575503098367,
-          "pitch": 0.13550516390888845,
-          "rotation": 0,
-          "target": "4-corridoio-multimediale"
-        },
-        {
-          "yaw": -1.2795565706153926,
-          "pitch": 0.2733381080285753,
-          "rotation": 0,
-          "target": "12-laboratorio-di-informatica"
-        },
-        {
-          "yaw": -1.6574021869021855,
-          "pitch": 0.21505661931102438,
-          "rotation": 5.497787143782138,
-          "target": "13-corridoio-secondo-piano-chimica"
-        },
-        {
-          "yaw": 0.5960285817526465,
-          "pitch": 0.06370051361459872,
-          "rotation": 1.5707963267948966,
-          "target": "19-laboratorio-informatica-musicale"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.044224119857592115,
-          "pitch": -0.0018518442954160719,
-          "title": "Bagni",
-          "text": "Bagni degli studenti<br>"
-        },
-        {
-          "yaw": -1.19462755824493,
-          "pitch": 0.015232132761237693,
-          "title": "Laboratorio di Informatica<br>",
-          "text": "Laboratorio di informatica del triennio<br>"
-        },
-        {
-          "yaw": -1.6498514523689973,
-          "pitch": 0.09955822025047567,
-          "title": "Secondo Piano<br>",
-          "text": "Da qui si arriva ai laboratori di Chimica e Fisica situati al secondo piano<br>"
-        },
-        {
-          "yaw": 0.6088565769121796,
-          "pitch": -0.037123797553309856,
-          "title": "Laboratorio di informatica musicale<br>",
-          "text": "Laboratorio di Informatica Musicale<br>"
-        }
-      ]
-    },
-    {
-      "id": "11-corridoio-secondo-piano-informatica",
-      "name": "Corridoio Secondo Piano Informatica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -1.8241341206684965,
-        "pitch": 0.002948504270847252,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.4059530671298006,
-          "pitch": 0.19469811087860833,
-          "rotation": 0,
-          "target": "7-corridoio-secondo-piano"
-        },
-        {
-          "yaw": -1.16444121022678,
-          "pitch": 0.1157545701222702,
-          "rotation": 0,
-          "target": "16-pcto"
-        },
-        {
-          "yaw": -1.2697789735282186,
-          "pitch": 0.23103543795336456,
-          "rotation": 4.71238898038469,
-          "target": "18-sistemi-e-reti"
-        },
-        {
-          "yaw": -0.9595301335026676,
-          "pitch": 0.20327685993750322,
-          "rotation": 1.5707963267948966,
-          "target": "17-net"
-        },
-        {
-          "yaw": -2.703178904979005,
-          "pitch": 0.19123832041565336,
-          "rotation": 0.7853981633974483,
-          "target": "3-atrio-vicepresidenza"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.161465457761274,
-          "pitch": -0.027526756506023986,
-          "title": "Laboratorio PCTO<br>",
-          "text": "Laboratorio utilizzato per i progetti con collaboratori esterni, forniti di stampanti 3D<br>"
-        },
-        {
-          "yaw": -1.3664475814709895,
-          "pitch": 0.13916654923894534,
-          "title": "Laboratorio di Sistemi e Reti<br>",
-          "text": "Procedendo sulla sinistra si arriva al laboratorio di Sistemi e Reti<br>"
-        },
-        {
-          "yaw": -0.8690018982713301,
-          "pitch": 0.11213053738929624,
-          "title": "Laboratorio Net<br>",
-          "text": "Procedendo sulla destra si arriva al laboratorio di Net<br>"
-        },
-        {
-          "yaw": -2.5704090135759863,
-          "pitch": 0.12813346591047292,
-          "title": "Primo Piano<br>",
-          "text": "Da qui si raggiungono le scale che portano al primo piano<br>"
-        }
-      ]
-    },
-    {
-      "id": "12-laboratorio-di-informatica",
-      "name": "Laboratorio di Informatica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.795674191407226,
-        "pitch": 0.03419151936619258,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.1668567968356491,
-          "pitch": 0.29124402916883874,
-          "rotation": 0,
-          "target": "10-corridoio-informatica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-corridoio-secondo-piano-chimica",
-      "name": "Corridoio Secondo Piano Chimica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.7102542525605919,
-        "pitch": 0.17095759683094514,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3793868061686005,
-          "pitch": 0.1624136183859175,
-          "rotation": 4.71238898038469,
-          "target": "14-laboratorio-di-chimica"
-        },
-        {
-          "yaw": -1.0915742203254553,
-          "pitch": 0.14619842023912,
-          "rotation": 7.853981633974483,
-          "target": "15-laboratorio-di-fisica"
-        },
-        {
-          "yaw": -1.94485770051244,
-          "pitch": 0.30168826736569443,
-          "rotation": 10.210176124166829,
-          "target": "10-corridoio-informatica"
-        },
-        {
-          "yaw": -2.8272559301421794,
-          "pitch": 0.17184063169381503,
-          "rotation": 0,
-          "target": "7-corridoio-secondo-piano"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -1.385429937867471,
-          "pitch": 0.02987836385068121,
-          "title": "Laboratorio di Chimica<br>",
-          "text": "Laboratorio di chimica del biennio<br>"
-        },
-        {
-          "yaw": -1.1018643679254119,
-          "pitch": 0.033127545767618116,
-          "title": "Laboratorio di Fisica<br>",
-          "text": "Laboratorio di fisica del biennio<br>"
-        },
-        {
-          "yaw": -1.8858047645305511,
-          "pitch": 0.21375474508880643,
-          "title": "Primo Piano<br>",
-          "text": "Da qui si scende per il primo piano<br>"
-        },
-        {
-          "yaw": 0.16942828931638587,
-          "pitch": -0.026256036273476724,
-          "title": "Bagni",
-          "text": "Bagno degli studenti<br>"
-        }
-      ]
-    },
-    {
-      "id": "14-laboratorio-di-chimica",
-      "name": "Laboratorio di Chimica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -1.9804112641362508,
-        "pitch": -0.01674629123062843,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.0373418448865976,
-          "pitch": 0.11223402652525927,
-          "rotation": 5.497787143782138,
-          "target": "13-corridoio-secondo-piano-chimica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-laboratorio-di-fisica",
-      "name": "Laboratorio di Fisica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.8104754397317,
-        "pitch": 0.13714513694358388,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.9882547588733015,
-          "pitch": 0.1682749323840831,
-          "rotation": 5.497787143782138,
-          "target": "13-corridoio-secondo-piano-chimica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-pcto",
-      "name": "PCTO",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 1.3143719022413762,
-        "pitch": 0.10271866222804782,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.2962565342013832,
-          "pitch": 0.26087560988026226,
-          "rotation": 0.7853981633974483,
-          "target": "11-corridoio-secondo-piano-informatica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "17-net",
-      "name": "NET",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.4116779308268743,
-        "pitch": 0.10000828311668108,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7462285711722991,
-          "pitch": 0.2055302859387016,
-          "rotation": 0.7853981633974483,
-          "target": "11-corridoio-secondo-piano-informatica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "18-sistemi-e-reti",
-      "name": "SISTEMI e RETI",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.0808598430803666,
-        "pitch": 0.047104554890783135,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.35920555152630484,
-          "pitch": 0.3058391138986458,
-          "rotation": 5.497787143782138,
-          "target": "11-corridoio-secondo-piano-informatica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "19-laboratorio-informatica-musicale",
-      "name": "Laboratorio Informatica Musicale",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -1.559557801295865,
-        "pitch": 0.1218026096143312,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.9274631542597174,
-          "pitch": 0.27051867804792096,
-          "rotation": 5.497787143782138,
-          "target": "10-corridoio-informatica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "20-aula-biennio",
-      "name": "Aula Biennio",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.759511827155478,
-        "pitch": 0.013856669668957267,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.575445378509265,
-          "pitch": 0.2491417833302041,
-          "rotation": 0.7853981633974483,
-          "target": "4-corridoio-multimediale"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "21-laboratorio-elettronica-n2",
-      "name": "Laboratorio Elettronica n2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 0.3219897060486403,
-        "pitch": 0.08761576837585139,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.4534946525057197,
-          "pitch": 0.3733965939785193,
-          "rotation": 4.71238898038469,
-          "target": "22-computer-laboratorio"
-        },
-        {
-          "yaw": 3.1063330454446154,
-          "pitch": 0.1920094390117022,
-          "rotation": 0.7853981633974483,
-          "target": "6-corridoio-elettronica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "22-computer-laboratorio",
-      "name": "Computer Laboratorio",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.9945632058327973,
-        "pitch": -0.017095759683087408,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.5662310797031047,
-          "pitch": 0.5236820900911887,
-          "rotation": 0.7853981633974483,
-          "target": "21-laboratorio-elettronica-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "23-laboratorio-elettronica-n1",
-      "name": "Laboratorio Elettronica n1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.08487909119595294,
-        "pitch": 0.08334182845508309,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.784489620614636,
-          "pitch": 0.24324994827088986,
-          "rotation": 0,
-          "target": "6-corridoio-elettronica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "24-piazzale-elettronica",
-      "name": "Piazzale Elettronica",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.4090829227744983,
-        "pitch": 0.021369699603862813,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.42889556740294843,
-          "pitch": 0.09630748785063759,
-          "rotation": 4.71238898038469,
-          "target": "25-cancello-di-ingresso"
-        },
-        {
-          "yaw": 1.7625141502876387,
-          "pitch": 0.12695518148932372,
-          "rotation": 0,
-          "target": "27-piazzale-di-ingresso"
-        },
-        {
-          "yaw": -2.786727578830831,
-          "pitch": 0.194646326311954,
-          "rotation": 0,
-          "target": "6-corridoio-elettronica"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "25-cancello-di-ingresso",
-      "name": "Cancello di Ingresso",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.3640164309866307,
-        "pitch": -0.30263796847348523,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "26-parcheggio",
-      "name": "Parcheggio",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.9120373698463506,
-        "pitch": -0.15380449586320566,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.2778295893320575,
-          "pitch": 0.11653609930953479,
-          "rotation": 5.497787143782138,
-          "target": "25-cancello-di-ingresso"
-        },
-        {
-          "yaw": 2.4840223396629426,
-          "pitch": 0.028425677569092755,
-          "rotation": 0.7853981633974483,
-          "target": "27-piazzale-di-ingresso"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "27-piazzale-di-ingresso",
-      "name": "Piazzale di Ingresso",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 2.7698716651293287,
-        "pitch": 0.008547879841543704,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.942849007977518,
-          "pitch": 0.12053039948548694,
-          "rotation": 0,
-          "target": "25-cancello-di-ingresso"
-        },
-        {
-          "yaw": -1.4319979148350832,
-          "pitch": 0.07569548275014171,
-          "rotation": 5.497787143782138,
-          "target": "24-piazzale-elettronica"
-        },
-        {
-          "yaw": 2.9086251189347028,
-          "pitch": 0.0713433496363649,
-          "rotation": 13.351768777756625,
-          "target": "29-atrio-esterno"
-        },
-        {
-          "yaw": 1.9622739860774114,
-          "pitch": 0.1285277444994115,
-          "rotation": 0,
-          "target": "28-campetti-esterni"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "28-campetti-esterni",
-      "name": "Campetti Esterni",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -2.383023980695988,
-        "pitch": -0.08870537789225352,
-        "fov": 1.3497101748081497
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.7832125094176696,
-          "pitch": 0.15282230045179546,
-          "rotation": 0.7853981633974483,
-          "target": "27-piazzale-di-ingresso"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -2.0059381506317333,
-          "pitch": 0.020246287882574876,
-          "title": "Campo da Calcetto<br>",
-          "text": "Secondo campo da calcetto esterno<br>"
-        },
-        {
-          "yaw": -2.5428565140586272,
-          "pitch": 0.019161996809991422,
-          "title": "Campo da calcetto<br>",
-          "text": "Primo campo da calcetto esterno<br>"
-        },
-        {
-          "yaw": -0.9716424530517358,
-          "pitch": 0.040013030843427444,
-          "title": "Bar Scolastico<br>",
-          "text": "Bar per studenti e professori<br>"
-        }
-      ]
-    },
-    {
-      "id": "29-atrio-esterno",
-      "name": "Atrio Esterno",
+      "id": "4-scale-esterne",
+      "name": "Scale Esterne",
       "levels": [
         {
           "tileSize": 256,
@@ -1396,34 +258,899 @@ var APP_DATA = {
       ],
       "faceSize": 1658,
       "initialViewParameters": {
-        "yaw": -2.767393099354983,
-        "pitch": 0.008547879841547257,
-        "fov": 1.3497101748081497
+        "yaw": -2.9729795495455402,
+        "pitch": 0.11041043919235705,
+        "fov": 1.3108730938557924
       },
       "linkHotspots": [
         {
-          "yaw": 2.200717789246232,
-          "pitch": 0.1120417235134763,
-          "rotation": 1.5707963267948966,
-          "target": "27-piazzale-di-ingresso"
-        },
-        {
-          "yaw": 1.6042261302568521,
-          "pitch": 0.12355551907422324,
-          "rotation": 4.71238898038469,
-          "target": "27-piazzale-di-ingresso"
-        },
-        {
-          "yaw": -2.9626668298381844,
-          "pitch": 0.07051399560974403,
+          "yaw": -2.3953477625456276,
+          "pitch": 0.05552930697162495,
           "rotation": 0,
-          "target": "0-atrio"
+          "target": "0-atrio-centrale"
+        },
+        {
+          "yaw": 1.945289275265699,
+          "pitch": 0.12149271440806686,
+          "rotation": 1.5707963267948966,
+          "target": "29-piano-piloty-ingresso"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "30-palestra",
+      "id": "5-aula-biennio-flipped-classroom",
+      "name": "Aula Biennio Flipped Classroom",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.8370505085989457,
+        "pitch": 0.23085819103855698,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.6187260252932756,
+          "pitch": 0.07055471826934578,
+          "rotation": 1.5707963267948966,
+          "target": "14-corridoio-lab-multimediale"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-aula-secondo-piano",
+      "name": "Aula secondo piano",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.8783406943162575,
+        "pitch": 0.03273693554751844,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7118772562980737,
+          "pitch": 0.0863942984858106,
+          "rotation": 4.71238898038469,
+          "target": "12-corridoio-aula_conferenze"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-biblioteca",
+      "name": "Biblioteca",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 0.8535386522559296,
+        "pitch": 0.21016854317879208,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.0772952214390887,
+          "pitch": -0.15636656634480062,
+          "rotation": 0,
+          "target": "0-atrio-centrale"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-cancello-di-ingresso",
+      "name": "Cancello di ingresso",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.658629013172945,
+        "pitch": 0.1596360167033808,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.7862871075509297,
+          "pitch": 0.16128163083019764,
+          "rotation": 0,
+          "target": "29-piano-piloty-ingresso"
+        },
+        {
+          "yaw": -2.09764141582232,
+          "pitch": 0.25123717747426966,
+          "rotation": 0.7853981633974483,
+          "target": "30-piazzale"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-corridoio-piano-terra",
+      "name": "Corridoio piano terra",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.7997937622355415,
+        "pitch": 0.03262126612501248,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.9406619269433616,
+          "pitch": 0.10508675715429305,
+          "rotation": 4.71238898038469,
+          "target": "22-laboratorio-elettronica"
+        },
+        {
+          "yaw": -2.744954103523023,
+          "pitch": 0.10719373697597234,
+          "rotation": 0,
+          "target": "23-laboratorio-automazione"
+        },
+        {
+          "yaw": -2.3194851541843065,
+          "pitch": -0.15675952160638573,
+          "rotation": 1.5707963267948966,
+          "target": "28-piano-piloty-elettronica"
+        },
+        {
+          "yaw": -0.8452302713665425,
+          "pitch": 0.00722183790612263,
+          "rotation": 0.7853981633974483,
+          "target": "2-vicepresidenza"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 1.8452286509293927,
+          "pitch": 0.08760501941378607,
+          "title": "Altri Laboratori",
+          "text": "<span style=\"font-size: 16px; background-color: rgba(103, 115, 131, 0.8);\">Il nostro plesso conta 27 aule laboratorio. Sarebbe stato impossibile mostrarle tutte. Qui è presente un laboratorio di Disegno per il Biennio</span>"
+        }
+      ]
+    },
+    {
+      "id": "10-corridoio-chimica-e-fisica",
+      "name": "Corridoio chimica e fisica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -1.4301014177055542,
+        "pitch": 0.06524253225002496,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9399030360562115,
+          "pitch": 0.2883130059339454,
+          "rotation": 3.9269908169872414,
+          "target": "13-corridoio-lab-informatica"
+        },
+        {
+          "yaw": -2.806122383029992,
+          "pitch": 0.23299558776790086,
+          "rotation": 0,
+          "target": "11-corridoio-laboratori-informatica"
+        },
+        {
+          "yaw": -1.060070211511663,
+          "pitch": 0.10479227234197808,
+          "rotation": 1.5707963267948966,
+          "target": "17-laboratorio-fisica"
+        },
+        {
+          "yaw": -1.3621151364304502,
+          "pitch": 0.10914799727646596,
+          "rotation": 4.71238898038469,
+          "target": "16-laboratorio-chimica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-corridoio-laboratori-informatica",
+      "name": "Corridoio laboratori informatica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.38824671115792597,
+        "pitch": -0.0025093281634624987,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.249018100971547,
+          "pitch": 0.036745093043439425,
+          "rotation": 4.71238898038469,
+          "target": "21-laboratorio-sistemi"
+        },
+        {
+          "yaw": -1.0010566794761413,
+          "pitch": 0.043208203042166105,
+          "rotation": 1.5707963267948966,
+          "target": "19-laboratorio-net"
+        },
+        {
+          "yaw": -1.2127105275504206,
+          "pitch": -0.12242707517296125,
+          "rotation": 0,
+          "target": "20-laboratorio-pcto"
+        },
+        {
+          "yaw": -1.0480449248888917,
+          "pitch": -0.14099813749563062,
+          "rotation": 0,
+          "target": "18-laboratorio-informatica-musicale"
+        },
+        {
+          "yaw": 0.41817815716522944,
+          "pitch": 0.18593425202184477,
+          "rotation": 0,
+          "target": "10-corridoio-chimica-e-fisica"
+        },
+        {
+          "yaw": -2.732133272739727,
+          "pitch": 0.2802105266310324,
+          "rotation": 0,
+          "target": "2-vicepresidenza"
+        },
+        {
+          "yaw": 1.1556244102511428,
+          "pitch": 0.12105622959064455,
+          "rotation": 1.5707963267948966,
+          "target": "6-aula-secondo-piano"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-corridoio-aula_conferenze",
+      "name": "Corridoio aula_conferenze",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -1.1897136511613908,
+        "pitch": 0.052695891432710695,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.8919797916132506,
+          "pitch": -0.06706972019352442,
+          "rotation": 3.9269908169872414,
+          "target": "14-corridoio-lab-multimediale"
+        },
+        {
+          "yaw": -1.4154332888949241,
+          "pitch": 0.04526982234658128,
+          "rotation": 4.71238898038469,
+          "target": "3-aula-conferenze"
+        },
+        {
+          "yaw": 0.6007620864340097,
+          "pitch": 0.058104278507489227,
+          "rotation": 0,
+          "target": "6-aula-secondo-piano"
+        },
+        {
+          "yaw": -2.774937241105633,
+          "pitch": 0.2328179561368806,
+          "rotation": 0,
+          "target": "11-corridoio-laboratori-informatica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-corridoio-lab-informatica",
+      "name": "Corridoio lab Informatica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.7943029044790499,
+        "pitch": 0.045167906942324976,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.3156385636067363,
+          "pitch": 0.11576917443582069,
+          "rotation": 0,
+          "target": "15-laboratorio-informatica-triennio"
+        },
+        {
+          "yaw": -1.6190697096137558,
+          "pitch": 0.056607105281624825,
+          "rotation": 5.497787143782138,
+          "target": "10-corridoio-chimica-e-fisica"
+        },
+        {
+          "yaw": -2.829475500518784,
+          "pitch": 0.3419805599017991,
+          "rotation": 0,
+          "target": "14-corridoio-lab-multimediale"
+        },
+        {
+          "yaw": -3.1014075741742424,
+          "pitch": 0.06379562496333335,
+          "rotation": 0,
+          "target": "5-aula-biennio-flipped-classroom"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-corridoio-lab-multimediale",
+      "name": "Corridoio lab Multimediale",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.8495122991849957,
+        "pitch": 0.04265857877886248,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7733266722619287,
+          "pitch": 0.08365745559732218,
+          "rotation": 3.9269908169872414,
+          "target": "9-corridoio-piano-terra"
+        },
+        {
+          "yaw": -1.5831056460552375,
+          "pitch": -0.0057419382248316,
+          "rotation": 5.497787143782138,
+          "target": "12-corridoio-aula_conferenze"
+        },
+        {
+          "yaw": -1.2609223953946849,
+          "pitch": 0.17593892572746306,
+          "rotation": 0,
+          "target": "25-laboratorio-multimediale"
+        },
+        {
+          "yaw": 0.3818186323679029,
+          "pitch": 0.28755927275148707,
+          "rotation": 0,
+          "target": "13-corridoio-lab-informatica"
+        },
+        {
+          "yaw": -2.833327681023812,
+          "pitch": 0.2645921896107346,
+          "rotation": 0,
+          "target": "1-corridoio-primo-piano"
+        },
+        {
+          "yaw": 0.5950849066393342,
+          "pitch": 0.05488398345734069,
+          "rotation": 0,
+          "target": "5-aula-biennio-flipped-classroom"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-laboratorio-informatica-triennio",
+      "name": "Laboratorio Informatica Triennio",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.831690279782343,
+        "pitch": 0.06815121730648954,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.0188104343781976,
+          "pitch": 0.18273455970720498,
+          "rotation": 0.7853981633974483,
+          "target": "13-corridoio-lab-informatica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-laboratorio-chimica",
+      "name": "Laboratorio Chimica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.800724804307853,
+        "pitch": 0.04581584449112697,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.0056437748178908,
+          "pitch": 0.08002150573084421,
+          "rotation": 4.71238898038469,
+          "target": "10-corridoio-chimica-e-fisica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-laboratorio-fisica",
+      "name": "Laboratorio Fisica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.886916311555334,
+        "pitch": 0.07070595348786668,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.9637410770831174,
+          "pitch": 0.14035495432593592,
+          "rotation": 0,
+          "target": "10-corridoio-chimica-e-fisica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-laboratorio-informatica-musicale",
+      "name": "Laboratorio Informatica Musicale",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.779666423803956,
+        "pitch": 0.07684651799880804,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.936350798550606,
+          "pitch": 0.18893918813573407,
+          "rotation": 0,
+          "target": "11-corridoio-laboratori-informatica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-laboratorio-net",
+      "name": "Laboratorio Net",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.6621832914021084,
+        "pitch": 0.10810697311878315,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.7577016114850395,
+          "pitch": 0.0654312161295234,
+          "rotation": 1.5707963267948966,
+          "target": "11-corridoio-laboratori-informatica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-laboratorio-pcto",
+      "name": "Laboratorio PCTO",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 1.7816442857082428,
+        "pitch": 0.03763992245193748,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.381323080005675,
+          "pitch": 0.12940526534772623,
+          "rotation": 1.5707963267948966,
+          "target": "11-corridoio-laboratori-informatica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-laboratorio-sistemi",
+      "name": "Laboratorio Sistemi",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.8248920587203923,
+        "pitch": 0.09390924149403546,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.37028860349829174,
+          "pitch": 0.08181177698406827,
+          "rotation": 4.71238898038469,
+          "target": "11-corridoio-laboratori-informatica"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22-laboratorio-elettronica",
+      "name": "Laboratorio Elettronica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -0.6260955249726461,
+        "pitch": -0.04002786997215324,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.7802956307130273,
+          "pitch": 0.12389438892037674,
+          "rotation": 0,
+          "target": "9-corridoio-piano-terra"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23-laboratorio-automazione",
+      "name": "Laboratorio Automazione",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.826544332907014,
+        "pitch": -0.0032480755983961274,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.0494907095568173,
+          "pitch": 0.13103758689145195,
+          "rotation": 0,
+          "target": "9-corridoio-piano-terra"
+        },
+        {
+          "yaw": 2.5053963399128527,
+          "pitch": 0.2554406784239944,
+          "rotation": 5.497787143782138,
+          "target": "24-laboratorio-automazione-pc"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24-laboratorio-automazione-pc",
+      "name": "Laboratorio Automazione-PC",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 0.7330065787333915,
+        "pitch": 0.11797753841517178,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.2099729159925623,
+          "pitch": 0.4485470799768869,
+          "rotation": 0.7853981633974483,
+          "target": "23-laboratorio-automazione"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "25-laboratorio-multimediale",
+      "name": "Laboratorio Multimediale",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.7845673330024887,
+        "pitch": -0.020083967145776427,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7365664525490114,
+          "pitch": 0.10527513943382516,
+          "rotation": 0,
+          "target": "14-corridoio-lab-multimediale"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "26-palestra",
       "name": "Palestra",
       "levels": [
         {
@@ -1442,26 +1169,236 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 1.3237860225080382,
-        "pitch": -0.00933124260045659,
-        "fov": 1.3497101748081497
+        "yaw": 1.9286985703087618,
+        "pitch": -0.001082304810520185,
+        "fov": 1.3108730938557924
       },
       "linkHotspots": [
         {
-          "yaw": 2.192934915625113,
-          "pitch": 0.2117717475872034,
+          "yaw": 2.187819163002887,
+          "pitch": 0.09828154057836791,
+          "rotation": 0,
+          "target": "2-vicepresidenza"
+        },
+        {
+          "yaw": -2.439167047362732,
+          "pitch": 0.08818037047737093,
+          "rotation": 0,
+          "target": "27-piano-piloty-campetti"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "27-piano-piloty-campetti",
+      "name": "Piano Piloty Campetti",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -1.9269828150345667,
+        "pitch": -0.04265857877886248,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.5602077478191454,
+          "pitch": 0.17776097258541768,
+          "rotation": 7.0685834705770345,
+          "target": "29-piano-piloty-ingresso"
+        },
+        {
+          "yaw": -1.9773067519265872,
+          "pitch": 0.028541439695136006,
+          "rotation": 1.5707963267948966,
+          "target": "26-palestra"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -1.0660194184151788,
+          "pitch": 0.03732950776865884,
+          "title": "BAR",
+          "text": "Questo Bar può servire colazioni, snack e su richiesta anche piatti caldi."
+        },
+        {
+          "yaw": 2.1339790633471267,
+          "pitch": 0.1979174007552995,
+          "title": "Ingresso Pedonale",
+          "text": "Questo cancello collega, tramite un percorso pedonale interno, il plesso al piazzale Viola, adiacente al capolinea della Metro A Anagnina"
+        }
+      ]
+    },
+    {
+      "id": "28-piano-piloty-elettronica",
+      "name": "Piano Piloty Elettronica",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.672208752267448,
+        "pitch": -0.015055968980774992,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.7455864136929513,
+          "pitch": 0.11064058649090214,
+          "rotation": 0,
+          "target": "9-corridoio-piano-terra"
+        },
+        {
+          "yaw": 1.897414888052574,
+          "pitch": 0.11349562034214777,
+          "rotation": 5.497787143782138,
+          "target": "29-piano-piloty-ingresso"
+        },
+        {
+          "yaw": 0.4620663291601925,
+          "pitch": 0.1131984336270282,
+          "rotation": 11.780972450961727,
+          "target": "30-piazzale"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "29-piano-piloty-ingresso",
+      "name": "Piano Piloty Ingresso",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -2.8147673981244488,
+        "pitch": -0.06027544396845386,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.683654465808882,
+          "pitch": 0.011436337689426423,
+          "rotation": 1.5707963267948966,
+          "target": "4-scale-esterne"
+        },
+        {
+          "yaw": -1.991124024323673,
+          "pitch": -0.004962934195752666,
+          "rotation": 4.71238898038469,
+          "target": "4-scale-esterne"
+        },
+        {
+          "yaw": -0.8363678945052939,
+          "pitch": 0.14366735886170545,
+          "rotation": 0,
+          "target": "30-piazzale"
+        },
+        {
+          "yaw": 1.9272358865046186,
+          "pitch": 0.10938946718119169,
+          "rotation": 0,
+          "target": "27-piano-piloty-campetti"
+        },
+        {
+          "yaw": -1.290203301149532,
+          "pitch": 0.06991152758830665,
           "rotation": 6.283185307179586,
-          "target": "3-atrio-vicepresidenza"
+          "target": "28-piano-piloty-elettronica"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 2.3693304636178745,
+          "pitch": 0.02022573801102645,
+          "title": "Piano Piloty",
+          "text": "Questo spazio esterno viene utilizzato dagli studenti prima dell'inizio delle lezioni e per le ricreazioni. In fondo è presente il Bar del plesso."
+        }
+      ]
+    },
+    {
+      "id": "30-piazzale",
+      "name": "Piazzale",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -3.082478247562527,
+        "pitch": -0.07340089449774112,
+        "fov": 1.3108730938557924
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4593506355388426,
+          "pitch": 0.010871853191218861,
+          "rotation": 0.7853981633974483,
+          "target": "29-piano-piloty-ingresso"
+        },
+        {
+          "yaw": 1.5331884917530418,
+          "pitch": 0.05669101512868302,
+          "rotation": 0,
+          "target": "8-cancello-di-ingresso"
         }
       ],
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Visita Hertz",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };
