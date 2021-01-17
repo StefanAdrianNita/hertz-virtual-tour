@@ -207,7 +207,7 @@ hotspotHtml[16]={//lab chimica
     youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/WoOAtcwexfQ?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[17]={//lab fisica
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/1LMHblX3wSY?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[18]={//lab info musicale
     youtube: '<iframe width="2360" height="960" src="https://www.youtube.com/embed/kneaG7jM-I8?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
