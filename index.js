@@ -106,7 +106,7 @@ var vertical=[-0.102,
               -0.060,//corridoio lab multimediale
               -0.060,//lab info 3
               -0.080,//lab chimica
-              -0.040,//ab fisica
+              -0.060,//ab fisica
               -0.020,//lab info musicale
               -0.050,//lab net
                0.050,//lab pcto
