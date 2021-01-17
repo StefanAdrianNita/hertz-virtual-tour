@@ -164,7 +164,7 @@ hotspotHtml[2]={
 };
       
 hotspotHtml[3]={//aula conferenze
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/watch?v=X8CF_ZcGn0Q;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://youtu.be/X8CF_ZcGn0Q;" frameborder="0" allowfullscreen></iframe>'
 };
 
 hotspotHtml[4]={
