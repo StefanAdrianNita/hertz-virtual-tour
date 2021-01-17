@@ -160,7 +160,7 @@ hotspotHtml[1]={//corridoio primo piano
 };
           
 hotspotHtml[2]={
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/q_2ueXdmVv4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/4EfE4cWKCQ0?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
       
 hotspotHtml[3]={//aula conferenze
