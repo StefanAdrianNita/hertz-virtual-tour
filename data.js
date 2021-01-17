@@ -178,7 +178,7 @@ var APP_DATA = {
           "yaw": 2.9832538581684886,
           "pitch": 0.08745026252128518,
           "title": "Segreteria Didattica",
-          "text": "Si può contattare la segreteria didattica all'indirizzo di posta didattica@iisenzoferrari.it"
+          "text": "https://unsplash.com/"
         },
         {
           "yaw": -1.9945488940895046,
