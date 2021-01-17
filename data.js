@@ -1191,8 +1191,8 @@ var APP_DATA = {
         {
           "yaw": -1.0660194184151788,
           "pitch": 0.03732950776865884,
-          "title": "Tennis da Tavolo",
-          "text": "Area dove è possibile praticare il tennis da tavolo."
+          "title": "Attività Extra-Scolastiche",
+          "text": "Organizziamo  campi scuola culturali e sportivi  "
         }
 
       ]
