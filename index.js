@@ -262,9 +262,6 @@ function switchHotspot(id) {
 
 switchHotspot('youtube');
       
-function switchUrl(id){
-  
-}
 
 var switchElements = document.querySelectorAll('[data-source]');
 for (var i = 0; i < switchElements.length; i++) {
