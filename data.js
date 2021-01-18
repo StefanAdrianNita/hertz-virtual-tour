@@ -48,12 +48,6 @@ var APP_DATA = {
           "pitch": 0.207697146945236,
           "rotation": 5.497787143782138,
           "target": "1-corridoio-primo-piano"
-        },
-        {
-          "yaw": 1.7634406502732247,
-          "pitch": 0.210328199879795,
-          "rotation": 5.497787143782138,
-          "target": "0.0-progetti"
         }
       ],
       "infoHotspots": [
