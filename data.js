@@ -48,6 +48,12 @@ var APP_DATA = {
           "pitch": 0.207697146945236,
           "rotation": 5.497787143782138,
           "target": "1-corridoio-primo-piano"
+        },
+        {
+          "yaw": 1.7634406502732247,
+          "pitch": 0.210328199879795,
+          "rotation": 5.497787143782138,
+          "target": "https://www.google.com"
         }
       ],
       "infoHotspots": [
@@ -178,7 +184,7 @@ var APP_DATA = {
           "yaw": 2.9832538581684886,
           "pitch": 0.08745026252128518,
           "title": "Segreteria Didattica",
-          "text": window.location.href="https://unsplash.com/"
+          "text": "Si può contattare la segreteria didattica all'indirizzo di posta didattica@iisenzoferrari.it"
         },
         {
           "yaw": -1.9945488940895046,
