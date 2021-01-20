@@ -243,7 +243,7 @@ hotspotHtml[28]={//piloty elettronica
     youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/C_KYmjUF8no?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[29]={//piloty ingresso
-    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/-RVTISFePAY?[id]rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/[-RVTISFePAY]?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 
 hotspotHtml[30]={
