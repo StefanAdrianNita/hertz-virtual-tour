@@ -153,7 +153,7 @@ count++;
 // HTML sources.
 var hotspotHtml=Array(31);
  hotspotHtml[0]={
-    youtube: '<iframe width="2360" height="960" src="https://www.youtube.com/embed/n0fgiOyr3w4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="2360" height="960" src="https://www.youtube.com/embed/n0fgiOyr3w4?rel=0&amp;controls=0&amp;modestbranding=1&amp;autohide=1&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[1]={//corridoio primo piano
     youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/pSGTeXYDUOI?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
