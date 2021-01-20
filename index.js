@@ -237,7 +237,7 @@ hotspotHtml[26]={//palestra
     youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/wcgZycSN2T4?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[27]={//campetti
-    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/03K4DEBnQ?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/J-03K4DEBnQ?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[28]={//piloty elettronica
     youtube: '<iframe width="1280" height="960" src="https://www.youtube.com/embed/C_KYmjUF8no?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
