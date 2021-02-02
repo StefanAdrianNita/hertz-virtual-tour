@@ -216,7 +216,7 @@ hotspotHtml[19]={//lab net
     youtube: '<iframe width="1280" height="480" src="https://www.youtube.com/embed/66Pb_myI-V8?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[20]={//lab pcto
-    youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/UqZh78QEM5E?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
+    youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/kvF-3u8TcBQ?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
 };
 hotspotHtml[21]={//lab sistemi
     youtube: '<iframe width="640" height="480" src="https://www.youtube.com/embed/1DziJxUnSQA?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allowfullscreen></iframe>'
